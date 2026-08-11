@@ -47,7 +47,7 @@ const DATA = {
     ]},
     { kab:"Ayen nniḍen", en:"Miscellaneous", blocks:[
       { t:"cmd", k:"Sbeggen deg ixf",                c:"echo" },
-      { t:"cmd", k:"Selkem am useqdac afellay",      c:"sudo" },
+      { t:"cmd", k:"Selkem am useqdac aẓaran / afellay",      c:"sudo" },
       { t:"cmd", k:"Asefrek n ikalan",               c:"top" },
       { t:"cmd", k:"Ping i uqeddac",                 c:"ping" }
     ]},
