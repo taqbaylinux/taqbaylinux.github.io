@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kab">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiferret n tludna n Linux — Taqbaylit</title>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div>
+
+<header class="toolbar">
+  <div class="brand">
+    <svg width="20" height="24" viewBox="0 0 24 28" fill="none" stroke="#d64545" stroke-width="3" stroke-linecap="round" aria-hidden="true">
+      <path d="M12 2v24M12 9L5 3M12 9l7-6M12 19l-7 6M12 19l7 6"/>
+    </svg>
+    Tiferret n tludna n Linux
+  </div>
+
+  <div class="searchwrap">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8ea79a" stroke-width="2.4" aria-hidden="true">
+      <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
+    </svg>
+    <input id="search" type="search" placeholder="Nadi… (ls, akaram…)" autocomplete="off" spellcheck="false" aria-label="Nadi deg tludna">
+    <span id="matchCount" aria-live="polite"></span>
+  </div>
+
+  <button class="btn-print" id="printBtn" type="button">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+    Print · PDF
+  </button>
+</header>
+
+<main class="sheet">
+  <div class="flag" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <header class="masthead">
+    <div>
+      <div class="eyebrow"><span class="yaz">ⵣ</span> Taqbaylit · Linux · 2026</div>
+      <h1 aria-label="Tiferret n tludna n Linux"><span id="titleText"></span></h1>
+      <div class="termline"><span class="prompt" id="promptText"></span> <span id="typeLine"></span><span class="cursor" aria-hidden="true"></span></div>
+      <div class="meta" id="metaChips"></div>
+    </div>
+    <div class="mascot-wrap">
+      <!-- Externally hosted for now — see README "Self-hosting the mascot image"
+           to pull this in under assets/img/ and drop the last outside request. -->
+      <img class="mascot" src="https://image.qwenlm.ai/public_source/10a5a5cd-affd-4f03-9de8-81ee8de1a906/104b64425-8185-4565-9bcf-296b1433494c.png" alt="Penguin mascot n Linux ɣer yidis n terminal">
+    </div>
+  </header>
+
+  <section class="grid" id="grid"></section>
+
+  <footer class="foot" id="footBar"></footer>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><span id="toastMsg"></span></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
