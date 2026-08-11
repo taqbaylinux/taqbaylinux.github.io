@@ -52,24 +52,24 @@ const DATA = {
       { t:"cmd", k:"Ping i uqeddac",                 c:"ping" }
     ]},
     { kab:"Asefrek n iseɣẓanen (apt)", en:"Software management", blocks:[
-      { t:"cmd", k:"Mucceḍ igadiren",                c:"apt update" },
-      { t:"cmd", k:"Leqqem akk ihallen",             c:"apt upgrade" },
-      { t:"cmd", k:"Nadi ɣef wahil",                 c:"apt search" },
-      { t:"cmd", k:"Sbedd ahil",                     c:"apt install" },
-      { t:"cmd", k:"Kkes ahil",                      c:"apt remove" },
-      { t:"cmd", k:"Kkes aḍarâ ur ilaqen",           c:"apt autoremove" },
-      { t:"cmd", k:"Ẓreg tabdart n yiɣbalen",        c:"apt edit-sources" },
-      { t:"note", k:"Asefrek n yikemmusen apt yettwaseqdec deg distributions yebnan ɣef Debian." }
+      { t:"cmd", k:"Mucceḍ ileqman",                c:"apt update" },
+      { t:"cmd", k:"Leqqem akk isnasen",             c:"apt upgrade" },
+      { t:"cmd", k:"Anadi ɣef kra n wahil",                 c:"apt search" },
+      { t:"cmd", k:"Sbedd ahil / aseɣẓan",           c:"apt install" },
+      { t:"cmd", k:"Kkes ahil / aseɣẓan",            c:"apt remove" },
+      { t:"cmd", k:"Kkes ahilen ur ilaqen",           c:"apt autoremove" },
+      { t:"cmd", k:"Ẓreg tabdart n yiɣbula",        c:"apt edit-sources" },
+      { t:"note", k:"Asefrek n yikemmusen apt yettwaseqdec deg yizuzar yebnan ɣef Debian." }
     ]},
     { kab:"Asefrek n iseɣẓanen (flatpak)", en:"Software management", blocks:[
       { t:"cmd", k:"Sbeggen remotes yettwasermden",  c:"flatpak remotes" },
       { t:"cmd", k:"Sermed remote",                  c:"flatpak remote-add" },
       { t:"cmd", k:"Ssens remote",                   c:"flatpak remote-delete" },
-      { t:"cmd", k:"Leqqem akk ihallen n flatpak",   c:"flatpak update" },
-      { t:"cmd", k:"Nadi ɣef wahil",                 c:"flatpak search" },
-      { t:"cmd", k:"Nadi, sakin sbedd ahil",         c:"flatpak install" },
-      { t:"cmd", k:"Kkes ahil",                      c:"flatpak uninstall" },
-      { t:"cmd", k:"Selkem ahil n flatpak",          c:"flatpak run" }
+      { t:"cmd", k:"Leqqem akk isnasen n flatpak",   c:"flatpak update" },
+      { t:"cmd", k:"Nadi ɣef kra n wesnas",                 c:"flatpak search" },
+      { t:"cmd", k:"Nadi, sakin sbedd asnas",         c:"flatpak install" },
+      { t:"cmd", k:"Kkes asnas",                      c:"flatpak uninstall" },
+      { t:"cmd", k:"Selkem asnas n flatpak",          c:"flatpak run" }
     ]},
     { kab:"Isebtar n ufus", en:"Manual pages", blocks:[
       { t:"p", k:"Aṭas n ihallen n Linux i yesɛan asebter n ufus i d-yessegzayen acu i xeddmen d wamek i ten-yettwaseqdacen, ama d iɣewwaren neɣ d tixtiṛiyin i qeblen." },
@@ -82,12 +82,12 @@ const DATA = {
     ]},
     { kab:"Pipe", en:"Pipes", blocks:[
       { t:"p", k:"Pipe yettwaseqdec i usiweḍ n isefka seg stdout ɣer stdin. Aya yenfeɛ i usiweḍ n isefka seg wahil ɣer wayeḍ." },
-      { t:"p", k:"Tladna-a ad d-tesbeggen amḍan n wawalen deg izri (string) i d-ittunefken :" },
+      { t:"p", k:"Taladna-a ad d-tesbeggen amḍan n wawalen deg azrir (string) i d-ittunefken :" },
       { t:"term", title:"pipe", lines:[ { cmd:'echo "some string" | wc -w' }, { out:"2" } ] }
     ]},
     { kab:"Awelleh n isuddman", en:"Redirects", blocks:[
       { t:"p", k:"Tzemreḍ ad tesqedceḍ awelleh n isuddman i tira n isefka seg usuddem n tuffɣa ɣer ufaylu." },
-      { t:"p", k:"Tladna-a ad tessekles taqsiḥt iḍeḥḥaken mliḥ deg ufaylu isem-is joke.txt, deg yiwen n ukaram." },
+      { t:"p", k:"Tladna-a ad tessekles kra n teqsiṭ yesseḍṣayen deg ufaylu isem-is joke.txt, deg yiwen n ukaram." },
       { t:"term", title:"redirect", lines:[ { cmd:'echo "some funny joke" > joke.txt' } ] }
     ]},
     { kab:"Ɣef tferret-a", en:"Colophon", blocks:[
