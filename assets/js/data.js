@@ -28,8 +28,8 @@ const DATA = {
   },
   sections:[
     { kab:"Asefrek n yifuyla", en:"File management", blocks:[
-      { t:"cmd", k:"Sbeggen agbur",                 c:"ls" },
-      { t:"cmd", k:"Sbeggen akaram amiran",          c:"pwd" },
+      { t:"cmd", k:"Sbeggen / Beggeḍ agbur",                 c:"ls" },
+      { t:"cmd", k:"Sbeggen / Beggeḍ akaram amiran",          c:"pwd" },
       { t:"cmd", k:"Snifel akaram",                  c:"cd" },
       { t:"cmd", k:"Nɣel",                           c:"cp" },
       { t:"cmd", k:"Smutti / Beddel isem",           c:"mv" },
@@ -87,8 +87,8 @@ const DATA = {
     ]},
     { kab:"Awelleh n isuddman", en:"Redirects", blocks:[
       { t:"p", k:"Tzemreḍ ad tesqedceḍ awelleh n isuddman i tira n isefka seg usuddem n tuffɣa ɣer ufaylu." },
-      { t:"p", k:"Tladna-a ad tessekles kra n teqsiṭ yesseḍṣayen deg ufaylu isem-is joke.txt, deg yiwen n ukaram." },
-      { t:"term", title:"redirect", lines:[ { cmd:'echo "some funny joke" > joke.txt' } ] }
+      { t:"p", k:"Tladna-a ad tessekles kra n teqsiṭ yesseḍṣayen deg ufaylu isem-is joke.txt, deg ukaram amiran." },
+      { t:"term", title:"redirect", lines:[ { cmd:'echo "kra n teqsiṭ yesseḍṣayen" > joke.txt' } ] }
     ]},
     { kab:"Ɣef tferret-a", en:"Colophon", blocks:[
       { t:"lead", k:"Yerna-t Iulian Rotaru, 2024." },
