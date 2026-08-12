@@ -82,8 +82,8 @@ const DATA = {
     ]},
     { kab:"Pipe", en:"Pipes", blocks:[
       { t:"p", k:"Pipe yettwaseqdec i usiweḍ n isefka seg stdout ɣer stdin. Aya yenfeɛ i usiweḍ n isefka seg wahil ɣer wayeḍ." },
-      { t:"p", k:"Taladna-a ad d-tesbeggen amḍan n wawalen deg azrir (string) i d-ittunefken :" },
-      { t:"term", title:"pipe", lines:[ { cmd:'echo "some string" | wc -w' }, { out:"2" } ] }
+      { t:"p", k:"Taladna-a ad d-tesbeggen amḍan n wawalen deg uzrir (string) i d-ittunefken :" },
+      { t:"term", title:"pipe", lines:[ { cmd:'echo "azrir-a d amedya" | wc -w' }, { out:"3" } ] }
     ]},
     { kab:"Awelleh n isuddman", en:"Redirects", blocks:[
       { t:"p", k:"Tzemreḍ ad tesqedceḍ awelleh n isuddman i tira n isefka seg usuddem n tuffɣa ɣer ufaylu." },
