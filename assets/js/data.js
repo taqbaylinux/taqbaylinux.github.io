@@ -59,7 +59,7 @@ const DATA = {
       { t:"cmd", k:"Kkes ahil / aseɣẓan",            c:"apt remove" },
       { t:"cmd", k:"Kkes ahilen ur ilaqen",           c:"apt autoremove" },
       { t:"cmd", k:"Ẓreg tabdart n yiɣbula",        c:"apt edit-sources" },
-      { t:"note", k:"Asefrek n yikemmusen apt yettwaseqdec deg yizuzar yebnan ɣef Debian." }
+      { t:"note", k:"Asefrek n ikemmusen s apt yettwaseqdac deg izuzar n Linux yebnan ɣef Debian." }
     ]},
     { kab:"Asefrek n iseɣẓanen (flatpak)", en:"Software management", blocks:[
       { t:"cmd", k:"Sbeggen remotes yettwasermden",  c:"flatpak remotes" },
